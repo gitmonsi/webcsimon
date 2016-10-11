@@ -20,15 +20,17 @@ font-family: 'Josefin Slab', serif;
 /*ETIQUETAS*/
 body{
 	background-image: url(../img/fondo.jpg);
+/*	background-color: rgba(20, 75, 20, 0.5); */
+	background-color: #CED8F6;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
 h1{
 	font-family: 'Days One', sans-serif;
-	color: brown;
+	color: #151515;
 	margin-left: 10px;
-	font-size: 50px;
+	font-size: 40px;
 	text-align: center;
 }
 
@@ -49,9 +51,10 @@ h3{
 }
 
 header{
-	width: 1000px;
-	height: 300px;
-	margin: 10px 0px 10px 0px;
+/*	width: 1000px; */
+	height: 150px;
+	margin: 5px 0px 10px 0px;
+	border-radius: 7px 7px 0px 0px;
 	background: rgba(255, 255, 255, 0.5);
 }
 
@@ -59,7 +62,6 @@ nav{
 	width: 1000px;
 	height: 50px;
 	background: #F2B80D;
-	border-radius: 10px;
 }
 
 ul{
@@ -73,27 +75,28 @@ li{
 	padding: 10px;
 /*	background: rgba(30, 50, 180, 0.5); */
 	margin: 3px;
-	border-radius: 10px;
+	border-radius: 7px;
 	box-shadow: 0 0 10px white inset;
 	list-style: none;
 }
 
 section{
-	width: 700px;
+	width: 695px;
 	background: white;
 	height: 700px;
 	float: left;
-	margin-top: 10px;
-	border-radius: 10px;
+	margin-top: 5px;
+	border-radius: 0px 0px 0px 7px;
 }
 aside{
-	width: 280px;
-	background: #006680;
+	width: 300px;
+/*	background: #006600; */
+	background-color: rgba(0, 102, 0, 0.7);
 	height: 700px;
 	float: left;
-	margin-left: 20px;
-	margin-top: 10px;
-	border-radius: 10px;
+	margin-left: 5px;
+	margin-top: 5px;
+	border-radius: 0px 0px 7px 0px;
 }
 
 footer{
@@ -147,7 +150,7 @@ p{
 .menu:active{color: white; text-decoration: none;}
 */
 
-.boton_nav:link{color: white; text-decoration: none; list-style-type: none;}
+.boton_nav:link{color: blue; text-decoration: none; list-style-type: none;}
 .boton_nav:visited{color: white; text-decoration: none; list-style-type: none;}
 .boton_nav:hover{color: white; text-decoration: none; text-shadow: 0 0 10px white; list-style-type: none;}
 .boton_nav:active{color: white; text-decoration: none; list-style-type: none;}
